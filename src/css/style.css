@@ -1,0 +1,18 @@
+:root {
+    --gradiente-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --azul-escuro: #304968;
+    --verde-escuro: #008364;
+    --verde-claro: #36C1A0;
+    --roxo-boreal: #4650BD;
+    --roxo-claro: #B6BCFF;
+    --branco: #FFFFFF;
+
+    --fonte-titulos: 'Calistoga';
+    --fonte-texto: 'Raleway'
+}
+
+body {
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+}
