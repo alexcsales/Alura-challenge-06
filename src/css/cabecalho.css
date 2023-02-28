@@ -57,3 +57,49 @@
 .cabecalho__botao:checked~.container__menu {
     display: block;
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        justify-content: center;
+        padding: 32px 60px;
+    }
+
+    .cabecalho__menu-hamburger {
+        display: none;
+    }
+
+    .container__menu {
+        display: flex;
+        position: static;
+        width: 100%;
+        height: 128px;
+    }
+
+    .menu__lista {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu__lista-item {
+        border: none;
+        padding: 0;
+    }
+
+    .menu__lista-link {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container__menu {
+        width: 50%;
+    }
+}
