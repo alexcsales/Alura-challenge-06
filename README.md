@@ -1,5 +1,5 @@
 <h1 align='center'>📌CodeChella<h1>
-<h3 align='center'>Projeto da 6° edição do Challenge Front-End: Site de um festival de musica com as atrações e compra de ingresso.</h3>
+<h3 align='center'>5° edição do Challenge de Front-End da Alura: Site de um festival de musica com as atrações e compra de ingresso.</h3>
 
 <h3>📄Tabela de conteúdos</h3>
 =================
