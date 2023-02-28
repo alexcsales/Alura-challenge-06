@@ -1,13 +1,19 @@
-.principal {
-    display: flex;
-    flex-direction: column;
-}
-
 .banner {
-    height: 270;
+    height: 275px;
 }
 
 .banner__imagem {
     width: 100%;
-    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 384px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        height: 407px;
+    }
 }
