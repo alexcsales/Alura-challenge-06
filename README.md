@@ -1,5 +1,5 @@
 <h1 align='center'>📌CodeChella<h1>
-<h3 align='center'>Projeto de challenge: Site de um festival de musica com as atrações e compra de ingresso.</h3>
+<h3 align='center'>6° edição do Challenge de Front-End da Alura: Site de um festival de musica com as atrações e compra de ingresso.</h3>
 
 <h3>📄Tabela de conteúdos</h3>
 =================
@@ -13,7 +13,7 @@
    * <a href="#autor">Autor</a><br>
 <!--te-->
 
-<h3 id="status" align='center'>🚧 STATUS: Projeto em construção...🚧</h4>
+<h4 id="status" align='center'>🚧 STATUS: Projeto em construção...🚧</h4>
 
 <h3 id=features>⚙ Features<h3>
 - [ ] Página inicial que mostrará as atrações do festival;<br>
