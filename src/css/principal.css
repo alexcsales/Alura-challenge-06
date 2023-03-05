@@ -1,10 +1,17 @@
-.banner {
-    height: 270px
+.principal {
+    background: var(--gradiente-boreal);
+    text-align: center;
 }
 
-.banner__imagem {
-    width: 100vw;
-    height: 100%;
+.banner {
+    background-image: url(../images/Banner.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
 }
 
 .data {
@@ -12,13 +19,16 @@
     justify-items: center;
     align-items: center;
     gap: 24px;
-    background: var(--gradiente-boreal);
     padding: 32px 24px;
-    text-align: center;
 }
 
 .data__imagem {
-    width: 100%;
+    background-color: red;
+    background-image: url(../images/Homepage1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 312px;
     height: 381px;
     border-radius: 16px;
 }
@@ -50,6 +60,54 @@
     padding-left: 16px;
 }
 
+.atracoes {
+    margin-top: 96px;
+}
+
+.atracoes__titulo {
+    font-family: var(--fonte-titulos);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    margin-top: 48px;
+}
+
+.atracoes__subtitulo {
+    background-color: var(--verde-escuro);
+    font-family: var(--fonte-titulos);
+    font-size: 32px;
+    padding: 16px;
+}
+
+.atracoes__lista {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.banda-destaque {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 64px 0 32px 0;
+}
+
+.lista__banda h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.lista__banda h6 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.lista__banda h4 {
+    font-size: 32px;
+}
+
 @media screen and (min-width: 768px) {
     .banner {
         height: 384px;
@@ -59,8 +117,12 @@
         padding: 32px 79.5px;
     }
 
-    .datas__imagem {
-        height: 381px;
+    .data__imagem {
+        width: 609px;
+    }
+
+    .atracoes__lista {
+        flex-direction: row;
     }
 }
 
@@ -68,13 +130,12 @@
 
 @media screen and (min-width: 1440px) {
     .banner {
-        width: 407px;
+        height: 407px;
     }
 
     .data {
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
         padding: 65px 120px;
     }
 
