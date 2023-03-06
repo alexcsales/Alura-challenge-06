@@ -16,7 +16,7 @@
 <h4 id="status" align='center'>🚧 STATUS: Projeto em construção...🚧</h4>
 
 <h3 id=features>⚙ Features<h3>
-- [ ] Página inicial que mostrará as atrações do festival;<br>
+- [x] Página inicial que mostrará as atrações do festival;<br>
 - [ ] Página para explicar a experiência do festival, mostrando os diversos palcos;<br> 
 - [ ] Página para demonstrar os setores disponíveis para compra de ingresso;<br> 
 - [ ] Página de perguntas frequentes;<br> 
