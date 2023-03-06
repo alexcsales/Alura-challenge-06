@@ -3,8 +3,8 @@
     text-align: center;
 }
 
-.banner {
-    background-image: url(../images/Banner.svg);
+.banner-home {
+    background-image: url(../images/Banner\ -\ home.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .banner {
+    .banner-home {
         height: 384px;
     }
 
@@ -126,7 +126,7 @@
 
 
 @media screen and (min-width: 1440px) {
-    .banner {
+    .banner-home {
         height: 407px;
     }
 
