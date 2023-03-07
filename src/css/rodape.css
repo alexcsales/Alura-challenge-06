@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.rodape__redes {
+.rodape__container-lista {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .rodape__redes {
+    .rodape__container-lista {
         flex-direction: row;
     }
 }
