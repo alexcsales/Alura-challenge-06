@@ -35,7 +35,7 @@
     margin-right: 16px;
 }
 
-.legenda__cor:nth-of-type(1) {
+.lista__legenda span:nth-of-type(1) {
     background-color: var(--pista-premium);
 }
 
