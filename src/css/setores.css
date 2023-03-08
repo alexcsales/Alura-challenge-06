@@ -39,7 +39,7 @@
     background-color: var(--pista-premium);
 }
 
-.legenda__cor:nth-of-type(2n) {
+.lista__legenda span:nth-of-type(2) {
     background-color: var(--pista-comum);
 }
 
