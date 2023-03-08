@@ -42,9 +42,16 @@
     </nav>
   </header>
   <main class="principal">
-    <img src="/src/images/Banner - home.svg" alt="Boas-vindas ao #CodeChella2023!" class="banner">
+    <picture>
+      <source media="(min-width:1440px)" srcset="/src/images/Banner-home-desktop.png">
+      <source media="(min-width:768px)" srcset="/src/images/Banner-home-tablet.png">
+      <img src="/src/images/Banner-home-mobile.png" alt="Boas-vindas ao #CodeChella2023!" class="banner">
+    </picture>
     <section class="secao">
-      <img src="./src/images/Homepage1.svg" alt="Uma banda se apresentando no palco" class="secao__imagem">
+      <picture>
+        <source media="(min-width:768px)" srcset="/src/images/Homepage1-tablet-desktop.png">
+        <img src="/src/images/Homepage1-mobile.png" alt="Uma banda se apresentando no palco" class="secao__imagem">
+      </picture>
       <div class="secao__container">
         <h6 class="secao__subtitulo">
           <11 e 12 de Março><br>Aluródromo de São Paulo
@@ -133,7 +140,11 @@
           <h4 class="banda">Rubycat Dolls</h4>
         </li>
       </ul>
-      <img src="/src/images/Homepage2.svg" alt="artista tocando um guitara" class="atracoes__imagem">
+      <picture>
+        <source media="(min-width:1440px)" srcset="/src/images/Homepage2-desktop.png">
+        <source media="(min-width:768px)" srcset="/src/images/Homepage2-tablet.png">
+        <img src="/src/images/Homepage2-mobile.png" alt="artista tocando um guitara" class="atracoes__imagem">
+      </picture>
     </section>
   </main>
   <footer class="rodape">

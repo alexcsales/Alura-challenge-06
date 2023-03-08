@@ -1,0 +1,72 @@
+.setores {
+    display: flex;
+    flex-direction: column;
+}
+
+.setores__imagem {
+    width: 100%;
+    max-width: 648px;
+    height: auto;
+    max-height: 609px;
+    object-fit: cover;
+}
+
+.setores__legenda {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.setores__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.lista__legenda {
+    display: flex;
+    align-items: center;
+    margin-left: 105px;
+}
+
+.legenda__cor {
+    padding: 16px;
+    margin-right: 16px;
+}
+
+.legenda__cor:nth-of-type(1) {
+    background-color: var(--pista-premium);
+}
+
+.legenda__cor:nth-of-type(2n) {
+    background-color: var(--pista-comum);
+}
+
+.legenda__cor:nth-of-type(3) {
+    background-color: var(--cadeiras-terreo);
+}
+
+.legenda__cor:nth-of-type(4) {
+    background-color: var(--cadeiras-superiores);
+}
+
+.legenda__cor:nth-of-type(5) {
+    background-color: var(--rampas);
+}
+
+@media screen and (min-width: 768px) {
+    .setores {
+        padding: 32px 60px 0 60px;
+    }
+
+    .setores__imagem {
+        width: 100%;
+        max-width: 690px;
+        height: auto;
+        max-height: 609px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {}

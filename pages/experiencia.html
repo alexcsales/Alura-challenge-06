@@ -43,8 +43,12 @@
         </nav>
     </header>
     <main class="principal">
-        <img src="../src/images/Banner - A Experiência.svg" alt="Banner da paginá escrito 'a experiência'"
-            class="banner">
+        <picture>
+            <source media="(min-width:1440px)" srcset="../src/images/Banner-experiencia-desktop.png">
+            <source media="(min-width:768px)" srcset="../src/images/Banner-experiencia-tablet.png">
+            <img src="../src/images/Banner-experiencia-mobile.png"
+                alt="Jovens curtindo o CodeChela e a mensagem 'A experiência'" class="banner">
+        </picture>
         </section>
         <section class="secao">
             <img src="../src/images/experiencia - acessibilidade.svg" alt="representação de acessibilidade e Inclusão"
@@ -60,6 +64,8 @@
             </div>
         </section>
         <section class="secao">
+            <img src="../src/images/experiencia - sustentabilidade.svg" alt="representação de sustentabilidade"
+                class="secao__imagem sustentabilidade__imagem">
             <div class="secao__container">
                 <h6 class="secao__subtitulo">Sustentabilidade</h6>
                 <p class="secao__texto">Queremos estar aqui celebrando daqui a 50, 100 anos! Por isso, levamos o
@@ -67,8 +73,6 @@
                     Nosso festival é carbono zero, com utilização de copos retornáveis, coleta e destinação adequada de
                     resíduos, e transporte coletivo.</p>
             </div>
-            <img src="../src/images/experiencia - sustentabilidade.svg" alt="representação de sustentabilidade"
-                class="secao__imagem">
         </section>
         <section class="secao">
             <img src="../src/images/experiencia - atrações.svg" alt="representação das atrações" class="secao__imagem">

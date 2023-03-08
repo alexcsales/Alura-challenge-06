@@ -1,5 +1,6 @@
 @import url(cabecalho.css);
 @import url(principal.css);
+@import url(setores.css);
 @import url(rodape.css);
 
 :root {
@@ -10,6 +11,12 @@
     --roxo-boreal: #4650BD;
     --roxo-claro: #B6BCFF;
     --branco: #FFFFFF;
+
+    --pista-premium: #0E7DF1;
+    --pista-comum: #FE016E;
+    --cadeiras-terreo: #01A89E;
+    --cadeiras-superiores: #3F51B5;
+    --rampas: #0E7DF1;
 
     --fonte-titulos: 'Calistoga';
     --fonte-texto: 'Raleway'
