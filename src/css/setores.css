@@ -40,15 +40,21 @@
     margin-right: 16px;
 }
 
-.legenda__cor:nth-of-type(1) {
+.lista__item:nth-of-type(1) .legenta__texto::before {
+    content: '';
+    display: inline-block;
     background-color: var(--pista-premium);
+    width: 32px;
     height: 32px;
     margin-right: 16PX;
     vertical-align: middle;
 }
 
-.legenda__cor:nth-of-type(2n) {
+.lista__item:nth-of-type(2) .legenta__texto::before {
+    content: '';
+    display: inline-block;
     background-color: var(--pista-comum);
+    width: 32px;
     height: 32px;
     margin-right: 16PX;
     vertical-align: middle;
@@ -57,8 +63,8 @@
 .lista__item:nth-of-type(3) .legenta__texto::before {
     content: '';
     display: inline-block;
-    width: 32px;
     background-color: var(--cadeiras-terreo);
+    width: 32px;
     height: 32px;
     margin-right: 16PX;
     vertical-align: middle;
@@ -67,8 +73,8 @@
 .lista__item:nth-of-type(4) .legenta__texto::before {
     content: '';
     display: inline-block;
-    width: 32px;
     background-color: var(--cadeiras-superiores);
+    width: 32px;
     height: 32px;
     margin-right: 16PX;
     vertical-align: middle;
@@ -77,8 +83,8 @@
 .lista__item:nth-of-type(5) .legenta__texto::before {
     content: '';
     display: inline-block;
-    width: 32px;
     background-color: var(--rampas);
+    width: 32px;
     height: 32px;
     margin-right: 16PX;
     vertical-align: middle;
@@ -87,6 +93,7 @@
 @media screen and (min-width: 768px) {
     .setores {
         padding: 32px 60px 0 60px;
+        gap: 48px;
     }
 
     .setores__imagem {
@@ -98,4 +105,10 @@
     }
 }
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+    .setores {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
