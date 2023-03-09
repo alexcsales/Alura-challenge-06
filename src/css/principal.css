@@ -12,13 +12,12 @@
 .secao {
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
     padding: 32px 24px 0 24px;
     gap: 32px;
 }
 
 .secao__imagem {
+    width: 100%;
     max-width: 609px;
     height: 381px;
     border-radius: 16px;
@@ -119,6 +118,13 @@
 
     .secao {
         padding: 32px 79.5px 0 79.5px;
+    }
+
+    .secao__imagem {
+        width: 609px;
+        height: 381px;
+        border-radius: 16px;
+        object-fit: cover;
     }
 
     .atracoes__lista {
