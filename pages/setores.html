@@ -31,7 +31,7 @@
                     <a href="/pages/experiencia.html" class="menu__lista-link">A experiência</a>
                 </li>
                 <li class="menu__lista-item">
-                    <a href="/pages/setores.html" class="menu__lista-link">Mapa de setores</a>
+                    <a href="/pages/setores.html" class="menu__lista-link ativo">Mapa de setores</a>
                 </li>
                 <li class="menu__lista-item">
                     <a href="/pages/informacoes.html" class="menu__lista-link">Informações</a>
@@ -49,30 +49,71 @@
             <img src="../src/images/Banner-setores-mobile.png" alt="Mapa de setores" class="banner">
         </picture>
         <section class="setores">
-            <picture>
-                <source media="(min-width:1440px)" srcset="../src/images/Mapa-setores-desktop.png">
-                <source media="(min-width:768px)" srcset="../src/images/Mapa-setores-tablet.png">
-                <img src="../src/images/Mapa-setores-mobile.png" alt="Mapa dos setores" class="setores__imagem">
-            </picture>
-            <section class="setores__legenda">
-                <p class="lista__texto">Legenda:</p>
-                <ul class="lista__legenda">
-                    <li class="lista__item">
-                        <p class="legenta__texto">Pista Premium</p>
-                    </li>
-                    <li class="lista__item">
-                        <p class="legenta__texto">Pista Comum</p>
-                    </li>
-                    <li class="lista__item">
-                        <p class="legenta__texto">Cadeiras térreo</p>
-                    </li>
-                    <li class="lista__item">
-                        <p class="legenta__texto">Cadeiras superiores</p>
-                    </li>
-                    <li class="lista__item">
-                        <p class="legenta__texto">Rampas</p>
-                    </li>
-                </ul>
+            <section class="setores__mapa">
+                <picture>
+                    <source media="(min-width:1440px)" srcset="../src/images/Mapa-setores-desktop.png">
+                    <source media="(min-width:768px)" srcset="../src/images/Mapa-setores-tablet.png">
+                    <img src="../src/images/Mapa-setores-mobile.png" alt="Mapa dos setores"
+                        class="setores__mapa-imagem">
+                </picture>
+                <section class="setores__legenda">
+                    <p class="legenda__titulo">Legenda:</p>
+                    <ul class="legenda__lista">
+                        <li class="legenda__item">
+                            <p class="legenta__texto">Pista Premium</p>
+                        </li>
+                        <li class="legenda__item">
+                            <p class="legenta__texto">Pista Comum</p>
+                        </li>
+                        <li class="legenda__item">
+                            <p class="legenta__texto">Cadeiras térreo</p>
+                        </li>
+                        <li class="legenda__item">
+                            <p class="legenta__texto">Cadeiras superiores</p>
+                        </li>
+                        <li class="legenda__item">
+                            <p class="legenta__texto">Rampas</p>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="setores__detalhes">
+                <h5 class="detalhes__subtitulo">Mais detalhes sobre os setores:</h5>
+                <section class="detalhes__secao">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="../src/images//Pista - desktop.png">
+                        <img src="../src/images/Pista - mobile.png" alt="representação de acessibilidade e Inclusão"
+                            class="detalhes__imagem">
+                    </picture>
+                    <h6 class="detalhes__subtitulo">Pista</h6>
+                    <p class="detalhes__texto">Pista convencional, atendida pelos bares e banheiros das laterais do
+                        estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma
+                        grade.</p>
+                </section>
+                <section class="detalhes__secao">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="../src/images/Pista Premium - desktop.png">
+                        <img src="../src/images/Pista Premium - mobile.png"
+                            alt="representação de acessibilidade e Inclusão" class="detalhes__imagem">
+                    </picture>
+                    <h6 class="detalhes__subtitulo">Pista Premium</h6>
+                    <p class="detalhes__texto">Pista mais próxima do palco, com acesso muito próximo a banheiros e
+                        bares
+                        num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito
+                        a
+                        essa área.</p>
+                </section>
+                <section class="detalhes__secao">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="../src/images/Cadeiras - desktop.png">
+                        <img src="../src/images/Cadeiras - mobile.png" alt="representação de acessibilidade e Inclusão"
+                            class="detalhes__imagem">
+                    </picture>
+                    <h6 class="detalhes__subtitulo">Cadeiras</h6>
+                    <p class="detalhes__texto">Opção de cadeiras térreas ou elevadas. Acesso próximo a banheiros e
+                        bares,
+                        visão um pouco elevada em relação às pistas.</p>
+                </section>
             </section>
         </section>
     </main>
