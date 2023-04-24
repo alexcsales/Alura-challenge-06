@@ -23,8 +23,8 @@
 - [ ] Página para compra de ingressos através do preenchimento do formulário;<br>
 - [ ] Página para mostrar o ingresso gerado.<br>
   
-  <img id="previa" align="center" height="20%" width="60%" src="" alt="GIF-Project"/>
-  <hr>
+  <img id="previa" style="display: block; margin: 0 auto; height: 20%; width: 60%; text-align: center;" src="" alt="GIF-Project"/>
+<hr>
   
 <h2 id="pre-requisitos">🖥️Pré-requisitos</h2>
   <p>Antes de começar, você precisará ter as seguintes ferramentas instaladas: <a href='https://git-scm.com/downloads'>Git<a>. Também é bom ter um editor para trabalhar com código como <a href='https://code.visualstudio.com/download'>VScode</a>.</p>
@@ -33,17 +33,18 @@
     
  ```bash
  # Clonar este repositório:
- $ git clone https://github.com/alexcsales/ALLRPG
+ $ git clone https://github.com/alexcsales/CodeChella
  # Executar arquivo:
  $ No navegador, precione Ctrl + O e abra o arquivo index.html
  ```
     
- <h3 id="tecnologias">🛠 Tecnologias </h3>
- As seguintes ferramentas foram utilizadas na construção do projeto:<br>
-   - HTML<br>
-   - CSS<br>
- - JavaScript
-    <hr>
-    
-  <p id="autor">De ALEX🤘 <a href='https://www.linkedin.com/in/alexsales-dev/'>Veja meu linkedin<a></p>
+ <h3>🛠Tecnologias</h3>
+<p>As seguintes ferramentas foram utilizadas na construção do projeto:</p>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+<p id="autor">De ALEX🤘 <a href='https://www.linkedin.com/in/alexsales-dev/'>Veja meu linkedin</a></p>
 
