@@ -13,7 +13,7 @@
    * <a href="#autor">Autor</a><br>
 <!--te-->
 
-<h4 id="status" align='center'>🚧 STATUS: Projeto em construção...🚧</h4>
+<h4 id="status" align='center'>✅ STATUS: Projeto concluído✅</h4>
 
 <h3 id=features>⚙ Features<h3>
 - [x] Página inicial que mostrará as atrações do festival;<br>
