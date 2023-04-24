@@ -21,7 +21,7 @@
 - [ ] Página para demonstrar os setores disponíveis para compra de ingresso;<br> 
 - [ ] Página de perguntas frequentes;<br> 
 - [ ] Página para compra de ingressos através do preenchimento do formulário;<br>
-- [ ] Página para mostrar o ingresso gerado.
+- [ ] Página para mostrar o ingresso gerado.<br>
   
   <img id="previa" align="center" height="20%" width="60%" src="" alt="GIF-Project"/>
   <hr>
