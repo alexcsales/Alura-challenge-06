@@ -1,5 +1,5 @@
 <h1 align='center'>📌CodeChella<h1>
-<h3 align='center'>6° edição do Challenge de Front-End da Alura: Site de um festival de musica com as atrações e compra de ingresso.</h3>
+<h3 align='center'>6° edição do Challenge de Front-End da Alura: Site de um festival de musica com as atrações e compra de ingresso/ Semana 1.</h3>
 
 <h3>📄Tabela de conteúdos</h3>
 =================
@@ -17,11 +17,11 @@
 
 <h3 id=features>⚙ Features<h3>
 - [x] Página inicial que mostrará as atrações do festival;<br>
-- [ ] Página para explicar a experiência do festival, mostrando os diversos palcos;<br> 
-- [ ] Página para demonstrar os setores disponíveis para compra de ingresso;<br> 
+- [x] Página para explicar a experiência do festival, mostrando os diversos palcos;<br> 
+- [x] Página para demonstrar os setores disponíveis para compra de ingresso;<br> 
 - [ ] Página de perguntas frequentes;<br> 
-- [ ] Página para compra de ingressos através do preenchimento do formulário;<br>
-- [ ] Página para mostrar o ingresso gerado.<br>
+- [ ] Formulário de geração de ingresso;<br>
+- [ ] geração de imgresso personalizado.<br>
   
   <img id="previa" style="display: block; margin: 0 auto; height: 20%; width: 60%; text-align: center;" src="" alt="GIF-Project"/>
 <hr>
