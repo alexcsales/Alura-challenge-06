@@ -23,7 +23,9 @@
 - [ ] Formulário de geração de ingresso;<br>
 - [ ] geração de imgresso personalizado.<br>
   
-  <img id="previa" style="display: block; margin: 0 auto; height: 20%; width: 60%; text-align: center;" src="src/images/readme.gif" alt="GIF-Project"/>
+  <h1 id="previa" align="center">
+  <img height="20%" width="60%" src="src/images/readme.gif" alt="GIF do Projeto"/>
+<h1/>
 <hr>
   
 <h2 id="pre-requisitos">🖥️Pré-requisitos</h2>
